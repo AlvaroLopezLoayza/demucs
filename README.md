@@ -97,7 +97,7 @@ Parts of the code are untested on Windows (in particular, training a new model).
 ```bash
 cd %HOMEPATH%
 conda install git
-git clone https://github.com/facebookresearch/demucs
+git clone https://github.com/facebookresearch/demucs.git
 cd demucs
 conda env update -f environment-cpu.yml
 conda activate demucs
